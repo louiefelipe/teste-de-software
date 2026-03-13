@@ -1,0 +1,39 @@
+    PROCESSO DE TESTE DE SOFTWARE
+
+Etapas:
+ 
+ Etapa 1 - Planejamento:
+ - Objetivo: testar uma função (verificar se um número é par).
+ - O que precisamos verificar nessa função:
+    -Cálculo;
+    -Se ele retorna true para par ou se retorna false;
+    -Se ele recebe a informação correta;
+    -Retorna o conteúdo na tela;
+    -Números negativos;
+    -Comportamento com o número 0;
+
+- Escopo do teste:
+    -Números pares
+    -Números ímpares
+    -Números negativos
+    -Zero
+
+ Etapa 2 - Análise de Teste:
+ - Objetivo: Seguir o Escopo
+ - Condições de teste:
+    -Realizar os testes com base no escopo
+
+ Etapa 3 -  Projeto de Teste
+  - Objetivo: criar os casos de testes
+  
+  Caso                | Entrada            | Resultado Esperado
+  CT 01                 2                    TRUE
+  CT 02                 1                    FALSE
+  CT 03                 -2                   TRUE
+  CT 04                 -1                   FALSE
+  CT 05                 0                    TRUE
+
+ Etapa 4 - Implementação do teste
+  -Ambiente:
+    -VScode
+    
