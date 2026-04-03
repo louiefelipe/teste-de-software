@@ -1,6 +1,7 @@
 {
   "name": "atividade-validacao",
   "version": "1.0.0",
+  "description": "",
   "main": "notificacao.js",
   "scripts": {
     "test": "jest"
@@ -8,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "type": "commonjs",
   "devDependencies": {
     "jest": "^30.3.0"
   }
